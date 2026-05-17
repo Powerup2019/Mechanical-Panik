@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="7segDigit.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="EIGHT0000" x="1" y="1" width="30" height="40"/>
+	<SubTexture name="FIVE0000" x="33" y="1" width="30" height="40"/>
+	<SubTexture name="FOUR0000" x="65" y="1" width="30" height="40"/>
+	<SubTexture name="NINE0000" x="97" y="1" width="30" height="40"/>
+	<SubTexture name="ONE0000" x="1" y="43" width="30" height="40"/>
+	<SubTexture name="PERCENT0000" x="33" y="43" width="30" height="40"/>
+	<SubTexture name="SEVEN0000" x="65" y="43" width="30" height="40"/>
+	<SubTexture name="SIX0000" x="97" y="43" width="30" height="40"/>
+	<SubTexture name="THREE0000" x="1" y="85" width="30" height="40"/>
+	<SubTexture name="TWO0000" x="33" y="85" width="30" height="40"/>
+	<SubTexture name="ZERO0000" x="65" y="85" width="30" height="40"/>
+</TextureAtlas>

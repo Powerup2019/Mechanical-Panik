@@ -1,0 +1,86 @@
+{
+	"camera_boyfriend": [
+		0,
+		0
+	],
+	"girlfriend": [
+		1175,
+		470
+	],
+	"stageUI": "",
+	"boyfriend": [
+		1875,
+		550
+	],
+	"objects": [
+		{
+			"x": 63,
+			"y": -16,
+			"scale": [
+				1,
+				1
+			],
+			"image": "stage-backgrounds/ship/dbgconcept",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "bg",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": 458,
+			"y": 552,
+			"scale": [
+				0.5,
+				0.5
+			],
+			"image": "stage-backgrounds/ship/an eel",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "eel",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"type": "gf"
+		},
+		{
+			"type": "dad"
+		},
+		{
+			"type": "boyfriend"
+		}
+	],
+	"camera_girlfriend": [
+		0,
+		0
+	],
+	"defaultZoom": 0.65,
+	"opponent": [
+		800,
+		570
+	],
+	"directory": "fact",
+	"camera_speed": 1.2,
+	"hide_girlfriend": false,
+	"camera_opponent": [
+		0,
+		0
+	]
+}

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="gear.png">
+<SubTexture name="gear spin0000" x="0" y="323" width="319" height="320" frameX="-100" frameY="-97" frameWidth="512" frameHeight="512" />
+<SubTexture name="gear spin0001" x="0" y="643" width="316" height="316" frameX="-100" frameY="-98" frameWidth="512" frameHeight="512" />
+<SubTexture name="gear spin0002" x="323" y="0" width="320" height="322" frameX="-100" frameY="-95" frameWidth="512" frameHeight="512" />
+<SubTexture name="gear spin0003" x="643" y="0" width="320" height="321" frameX="-100" frameY="-96" frameWidth="512" frameHeight="512" />
+<SubTexture name="gear spin0004" x="319" y="323" width="324" height="320" frameX="-97" frameY="-98" frameWidth="512" frameHeight="512" />
+<SubTexture name="gear spin0005" x="0" y="0" width="323" height="323" frameX="-99" frameY="-94" frameWidth="512" frameHeight="512" />
+<SubTexture name="gear spin0006" x="643" y="323" width="320" height="318" frameX="-100" frameY="-99" frameWidth="512" frameHeight="512" />
+</TextureAtlas>

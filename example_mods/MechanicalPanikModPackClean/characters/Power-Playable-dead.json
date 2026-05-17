@@ -1,0 +1,39 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [460, 392],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "Power-Playable-Dead DeathEND",
+			"indices": [0, 0, 1, 1, 2, 2, 3, 3]
+		},
+		{
+			"loop": false,
+			"offsets": [459, 392],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "Power-Playable-Dead deathStart",
+			"indices": [0, 0, 0, 1, 1, 1, 2, 2, 2]
+		},
+		{
+			"loop": true,
+			"offsets": [460, 392],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "Power-Playable-Dead deathLOOP",
+			"indices": [0, 0, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4]
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/player/Power-Playable-Dead",
+	"position": [0, 350],
+	"healthicon": "Power",
+	"flip_x": true,
+	"healthbar_colors": [255, 91, 0],
+	"camera_position": [-400, -450],
+	"sing_duration": 4,
+	"scale": 0.8,
+	"_editor_isPlayer": true
+}

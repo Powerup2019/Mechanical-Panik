@@ -1,0 +1,36 @@
+{
+	"storyName": "Powerin' up",
+	"difficulties": "normal",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "MainWeek",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"nuts-n-boltz-pico",
+			"power",
+			[
+				255,
+				84,
+				0
+			]
+		],
+		[
+			"nuts-n-boltz b-side",
+			"powerb",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"hiddenUntilUnlocked": true,
+	"weekName": "remixweek"
+}

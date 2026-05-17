@@ -1,0 +1,127 @@
+{
+	"animations": [
+		{
+			"offsets": [230, 60],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle"
+		},
+		{
+			"offsets": [196, 39],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left0"
+		},
+		{
+			"offsets": [196, 39],
+			"loop": true,
+			"fps": 24,
+			"anim": "singLEFT-loop",
+			"indices": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+			"name": "Left0"
+		},
+		{
+			"offsets": [196, 39],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "Left-alt"
+		},
+		{
+			"offsets": [231, -45],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down0"
+		},
+		{
+			"offsets": [231, -45],
+			"loop": true,
+			"fps": 24,
+			"anim": "singDOWN-loop",
+			"indices": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+			"name": "Down0"
+		},
+		{
+			"offsets": [231, -30],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "Down-alt"
+		},
+		{
+			"offsets": [281, 133],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up0"
+		},
+		{
+			"offsets": [281, 133],
+			"loop": true,
+			"fps": 24,
+			"anim": "singUP-loop",
+			"indices": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+			"name": "Up0"
+		},
+		{
+			"offsets": [281, 133],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "Up-alt"
+		},
+		{
+			"offsets": [174, 47],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right0"
+		},
+		{
+			"offsets": [174, 47],
+			"loop": true,
+			"fps": 24,
+			"anim": "singRIGHT-loop",
+			"indices": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+			"name": "Right0"
+		},
+		{
+			"offsets": [174, 47],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "Right-alt"
+		},
+		{
+			"offsets": [230, 60],
+			"indices": [11, 12, 13],
+			"fps": 24,
+			"anim": "idle-loop",
+			"loop": true,
+			"name": "Idle"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/opponent/Powerup, characters/opponent/Pup-alt",
+	"position": [-20, 150],
+	"healthicon": "Power",
+	"flip_x": false,
+	"healthbar_colors": [255, 91, 0],
+	"camera_position": [-100, 100],
+	"sing_duration": 6.1,
+	"scale": 0.8,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,31 @@
+[
+	// All types:
+	// bool - Has a checkbox only, meaning it can only be 'true' or 'false'.
+	// int - Numbers with no decimals (ex. 1, 3, 9, -1)
+	// float - Similar to int, but numbers can have decimals (ex. 1.5, 2.75)
+	// percent - Similar to float, but the displayed value is multiplied by 100 (ex. 1.1 will be displayed as "110%")
+	// string - A text instead of numbers/false and true, you gotta set up "options" variable to it
+	// key - TO BE IMPLEMENTED
+	{
+		"save": "mechdiff",
+		"name": "Mechanic Difficulty",
+		"type": "string",
+		"description": "Change the Mechanic Difficulty.",
+		"value": "Standard",
+		"format": "Mechanics %v", //Text formatting, '%v' means 'current value', so if my current value is 'Fri', it wil be shown as 'Friday'. You can also use '%d' to represent the default value
+
+		// String only variables
+		"options": ["Off", "Easy", "Standard", "Hard"] //Available options to choose
+	},
+  {
+		"save": "robnoskin",
+		"name": "Default Robot Noteskin",
+		"type": "string",
+		"description": "In case the noteSkin you are using is incompatible, it will set to whatever skin you set here. (This will probably break hold notes due to how psych is programmed.)",
+		"value": "Standard",
+		"format": "%v Noteskin", //Text formatting, '%v' means 'current value', so if my current value is 'Fri', it wil be shown as 'Friday'. You can also use '%d' to represent the default value
+
+		// String only variables
+		"options": ["Default", "Chip", "Future"] //Available options to choose
+	}
+]

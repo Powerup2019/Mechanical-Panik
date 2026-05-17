@@ -1,0 +1,27 @@
+{
+	"storyName": "ashlie 2.9 But p0w3ru9 sings it",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "power",
+	"weekBefore": "MainWeek",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"machina",
+			"power",
+			[
+				255,
+				84,
+				0
+			]
+		]
+	],
+	"weekName": "weekmachina",
+	"hiddenUntilUnlocked": true
+}

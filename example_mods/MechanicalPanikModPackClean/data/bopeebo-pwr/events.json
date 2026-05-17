@@ -1,0 +1,17 @@
+{
+	"events": [
+		[
+			19200,
+			[
+				["Play Animation", "cheer", "GF"]
+			]
+		],
+		[
+			57600,
+			[
+				["Play Animation", "cheer", "GF"]
+			]
+		]
+	],
+	"format": "psych_v1"
+}

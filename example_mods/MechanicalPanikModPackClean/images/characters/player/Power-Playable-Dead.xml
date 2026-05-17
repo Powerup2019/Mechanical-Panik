@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Power-Playable-Dead.png">
+<SubTexture name="Power-Playable-Dead deathStart0000" x="2127" y="1824" width="802" height="791" frameX="-254" frameY="-121" frameWidth="1407" frameHeight="912" />
+<SubTexture name="Power-Playable-Dead deathStart0001" x="1344" y="1824" width="783" height="798" frameX="-264" frameY="-114" frameWidth="1407" frameHeight="912" />
+<SubTexture name="Power-Playable-Dead deathStart0002" x="672" y="1824" width="672" height="805" frameX="-350" frameY="-107" frameWidth="1407" frameHeight="912" />
+<SubTexture name="Power-Playable-Dead deathLOOP0000" x="0" y="1824" width="672" height="805" frameX="-350" frameY="-107" frameWidth="1407" frameHeight="912" />
+<SubTexture name="Power-Playable-Dead deathLOOP0001" x="2309" y="805" width="672" height="805" frameX="-350" frameY="-107" frameWidth="1407" frameHeight="912" />
+<SubTexture name="Power-Playable-Dead deathLOOP0002" x="2309" y="0" width="672" height="805" frameX="-350" frameY="-107" frameWidth="1407" frameHeight="912" />
+<SubTexture name="Power-Playable-Dead deathLOOP0003" x="1486" y="912" width="672" height="805" frameX="-350" frameY="-107" frameWidth="1407" frameHeight="912" />
+<SubTexture name="Power-Playable-Dead deathLOOP0004" x="814" y="912" width="672" height="805" frameX="-350" frameY="-107" frameWidth="1407" frameHeight="912" />
+<SubTexture name="Power-Playable-Dead DeathEND0000" x="783" y="0" width="683" height="912" frameX="-339" frameY="0" frameWidth="1407" frameHeight="912" />
+<SubTexture name="Power-Playable-Dead DeathEND0001" x="0" y="0" width="783" height="912" frameX="-264" frameY="0" frameWidth="1407" frameHeight="912" />
+<SubTexture name="Power-Playable-Dead DeathEND0002" x="0" y="912" width="814" height="912" frameX="-254" frameY="0" frameWidth="1407" frameHeight="912" />
+<SubTexture name="Power-Playable-Dead DeathEND0003" x="1466" y="0" width="843" height="912" frameX="-254" frameY="0" frameWidth="1407" frameHeight="912" />
+</TextureAtlas>

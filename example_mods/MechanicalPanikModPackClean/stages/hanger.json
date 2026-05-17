@@ -1,0 +1,498 @@
+{
+	"preload": {
+		"images/tank1": 2,
+		"images/tankGround": 3,
+		"images/tankSky": 3,
+		"images/tank2": 3,
+		"images/tank3": 2,
+		"images/tankRuins": 3,
+		"images/tank4": 2,
+		"images/tank5": 3,
+		"images/smokeRight": 2,
+		"images/tankRolling": 3,
+		"images/tankMountains": 2,
+		"images/tankBuildings": 2,
+		"images/tankClouds": 2,
+		"images/tank0": 3,
+		"images/smokeLeft": 2
+	},
+	"_editorMeta": {
+		"boyfriend": "bf",
+		"dad": "tankman",
+		"gf": "gf-tankmen"
+	},
+	"boyfriend": [
+		810,
+		100
+	],
+	"girlfriend": [
+		60,
+		45
+	],
+	"stageUI": "",
+	"objects": [
+		{
+			"x": -1346,
+			"y": -993,
+			"scale": [
+				0.9,
+				0.9
+			],
+			"image": "tanky/tank_sky",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "sky",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -1602,
+			"y": -672,
+			"scale": [
+				1,
+				0.5
+			],
+			"image": "tanky/mountains",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "mountains",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				0.85,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -1200,
+			"y": -653,
+			"scale": [
+				0.95,
+				0.95
+			],
+			"image": "tanky/tank_building",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "buildings",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1.05,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -1242,
+			"y": -201,
+			"scale": [
+				0.95,
+				0.8
+			],
+			"image": "tanky/rubble",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "rubble",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				0.9,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -919,
+			"y": -1126,
+			"scale": [
+				0.75,
+				0.75
+			],
+			"image": "tanky/tower",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "tower",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				0.95,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -1301,
+			"y": -190,
+			"scale": [
+				0.85,
+				1
+			],
+			"image": "tanky/ground",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "ground",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": 25,
+			"y": -900,
+			"scale": [
+				0.7,
+				0.7
+			],
+			"image": "tanky/hangar",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "hanger",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": 1760,
+			"y": -504,
+			"scale": [
+				0.75,
+				0.75
+			],
+			"image": "tanky/light_2",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "l2",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": 430,
+			"y": -411,
+			"scale": [
+				0.75,
+				0.75
+			],
+			"image": "tanky/light_1",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "l1",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": 1598,
+			"y": -684,
+			"scale": [
+				1.2,
+				1.2
+			],
+			"image": "tanky/smokeRight",
+			"flipX": true,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "smokeR",
+			"firstAnimation": "smoke",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				0.95,
+				0.95
+			],
+			"alpha": 1,
+			"animations": [
+				{
+					"offsets": null,
+					"loop": true,
+					"fps": 24,
+					"anim": "smoke",
+					"indices": [
+						10000,
+						10001,
+						10002,
+						10003,
+						10004,
+						10005,
+						10006,
+						10007,
+						10008,
+						10009,
+						10010,
+						10011,
+						10012,
+						10013,
+						10014,
+						10015,
+						10016,
+						10017,
+						10018,
+						10019,
+						10020,
+						10021,
+						10022,
+						10023,
+						10024,
+						10025,
+						10026,
+						10027,
+						10028,
+						10029,
+						10030,
+						10031,
+						10032,
+						10033,
+						10034,
+						10035,
+						1003610037,
+						10038,
+						10039,
+						10040,
+						10041,
+						10042,
+						10043,
+						10044,
+						10045,
+						10046,
+						10047
+					],
+					"name": "SmokeRight instance"
+				}
+			],
+			"type": "animatedSprite"
+		},
+		{
+			"x": 758,
+			"y": -195,
+			"scale": [
+				0.75,
+				0.75
+			],
+			"image": "tanky/tank",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "tank",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": 367,
+			"y": 219,
+			"scale": [
+				0.7,
+				0.7
+			],
+			"image": "tanky/generator",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "generator",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": 318,
+			"y": -484,
+			"scale": [
+				1,
+				1
+			],
+			"image": "tanky/smokeLeft",
+			"flipX": true,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "smokeL",
+			"firstAnimation": "smoke",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"animations": [
+				{
+					"offsets": null,
+					"loop": true,
+					"fps": 24,
+					"anim": "smoke",
+					"indices": [
+						10000,
+						10001,
+						10002,
+						10003,
+						10004,
+						10005,
+						10006,
+						10007,
+						10008,
+						10009,
+						10010,
+						10011,
+						10012,
+						10013,
+						10014,
+						10015,
+						10016,
+						10017,
+						10018,
+						10019,
+						10020,
+						10021,
+						10022,
+						10023,
+						10024,
+						10025,
+						10026,
+						10027,
+						10028,
+						10029,
+						10030,
+						10031,
+						10032,
+						10033,
+						10034,
+						10035,
+						1003610037,
+						10038,
+						10039,
+						10040,
+						10041,
+						10042,
+						10043,
+						10044,
+						10045,
+						10046,
+						10047
+					],
+					"name": "SmokeBlurLeft instance"
+				}
+			],
+			"type": "animatedSprite"
+		},
+		{
+			"x": 2160,
+			"y": -118,
+			"scale": [
+				0.6,
+				0.6
+			],
+			"image": "tanky/bench",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "bench",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": 1870,
+			"y": 337,
+			"scale": [
+				0.6,
+				0.6
+			],
+			"image": "tanky/oil",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "oil",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"type": "gf"
+		},
+		{
+			"type": "dad"
+		},
+		{
+			"type": "boyfriend"
+		}
+	],
+	"defaultZoom": 0.47,
+	"opponent": [
+		-220,
+		50
+	],
+	"directory": "week7"
+}

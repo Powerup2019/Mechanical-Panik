@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bsidehud_combo.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="combo numbers0000" x="1" y="1" width="25" height="40" frameX="-2" frameY="0" frameWidth="30" frameHeight="40"/>
+	<SubTexture name="combo numbers0001" x="28" y="1" width="25" height="40" frameX="-2" frameY="0" frameWidth="30" frameHeight="40"/>
+	<SubTexture name="combo numbers0002" x="55" y="1" width="25" height="40" frameX="-2" frameY="0" frameWidth="30" frameHeight="40"/>
+	<SubTexture name="combo numbers0003" x="82" y="1" width="25" height="40" frameX="-2" frameY="0" frameWidth="30" frameHeight="40"/>
+	<SubTexture name="combo numbers0004" x="1" y="43" width="25" height="40" frameX="-2" frameY="0" frameWidth="30" frameHeight="40"/>
+	<SubTexture name="combo numbers0005" x="28" y="43" width="25" height="40" frameX="-2" frameY="0" frameWidth="30" frameHeight="40"/>
+	<SubTexture name="combo numbers0006" x="55" y="43" width="25" height="40" frameX="-2" frameY="0" frameWidth="30" frameHeight="40"/>
+	<SubTexture name="combo numbers0007" x="82" y="43" width="25" height="40" frameX="-2" frameY="0" frameWidth="30" frameHeight="40"/>
+	<SubTexture name="combo numbers0008" x="1" y="85" width="25" height="40" frameX="-2" frameY="0" frameWidth="30" frameHeight="40"/>
+	<SubTexture name="combo numbers0009" x="28" y="85" width="25" height="40" frameX="-2" frameY="0" frameWidth="30" frameHeight="40"/>
+	<SubTexture name="combo numbers0010" x="55" y="85" width="16" height="40" frameX="-12" frameY="0" frameWidth="30" frameHeight="40"/>
+	<SubTexture name="combo numbers0011" x="73" y="85" width="30" height="31" frameX="0" frameY="-5" frameWidth="30" frameHeight="40"/>
+</TextureAtlas>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bsidehud_vispurp.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="audio vis0000" x="1" y="1" width="42" height="16" frameX="0" frameY="0" frameWidth="186" frameHeight="16"/>
+	<SubTexture name="audio vis0001" x="45" y="1" width="78" height="16" frameX="0" frameY="0" frameWidth="186" frameHeight="16"/>
+	<SubTexture name="audio vis0002" x="125" y="1" width="114" height="16" frameX="0" frameY="0" frameWidth="186" frameHeight="16"/>
+	<SubTexture name="audio vis0003" x="1" y="19" width="150" height="16" frameX="0" frameY="0" frameWidth="186" frameHeight="16"/>
+	<SubTexture name="audio vis0004" x="1" y="37" width="186" height="16"/>
+</TextureAtlas>

@@ -1,0 +1,45 @@
+{
+	"storyName": "He's in the spotlight",
+	"difficulties": "PWR",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "MainWeek",
+	"startUnlocked": false,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Bopeebo-PWR",
+			"dad",
+			[
+				195,
+				0,
+				215
+			]
+		],
+		[
+			"Fresh-PWR",
+			"dad",
+			[
+				195,
+				0,
+				215
+			]
+		],
+		[
+			"Dad Battle-PWR",
+			"dad",
+			[
+				195,
+				0,
+				215
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"dad",
+		""
+	],
+	"weekName": "PWRWeek1",
+	"hiddenUntilUnlocked": true
+}

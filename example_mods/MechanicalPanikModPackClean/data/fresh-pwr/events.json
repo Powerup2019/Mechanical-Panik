@@ -1,0 +1,47 @@
+{
+	"events": [
+		[
+			8000,
+			[
+				["Play Animation", "cheer", "GF"]
+			]
+		],
+		[
+			24000,
+			[
+				["Play Animation", "cheer", "GF"]
+			]
+		],
+		[
+			33750,
+			[
+				["Play Animation", "cheer", "GF"]
+			]
+		],
+		[
+			40000,
+			[
+				["Play Animation", "cheer", "GF"]
+			]
+		],
+		[
+			56000,
+			[
+				["Play Animation", "cheer", "GF"]
+			]
+		],
+		[
+			65750,
+			[
+				["Play Animation", "cheer", "GF"]
+			]
+		],
+		[
+			72000,
+			[
+				["Play Animation", "cheer", "GF"]
+			]
+		]
+	],
+	"format": "psych_v1"
+}

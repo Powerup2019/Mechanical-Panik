@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bside hud ratings.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ratings0000" x="1" y="1" width="185" height="98"/>
+	<SubTexture name="ratings0001" x="188" y="1" width="185" height="98"/>
+	<SubTexture name="ratings0002" x="1" y="101" width="185" height="98"/>
+	<SubTexture name="ratings0003" x="188" y="101" width="185" height="98"/>
+	<SubTexture name="ratings0004" x="1" y="201" width="185" height="98"/>
+</TextureAtlas>

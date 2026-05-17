@@ -1,0 +1,27 @@
+{
+	"storyName": "Orange Thing",
+	"difficulties": "normal",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "MainWeek",
+	"startUnlocked": false,
+	"songs": [
+		[
+			"megaman-2",
+			"megamanlight",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hideStoryMode": true,
+	"hiddenUntilUnlocked": true,
+	"weekName": "shitposting"
+}

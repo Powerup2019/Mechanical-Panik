@@ -1,0 +1,123 @@
+{
+	"camera_boyfriend": [
+		0,
+		0
+	],
+	"_editorMeta": {
+		"boyfriend": "bf",
+		"dad": "Power",
+		"gf": "gf"
+	},
+	"girlfriend": [
+		1175,
+		470
+	],
+	"stageUI": "",
+	"boyfriend": [
+		1875,
+		550
+	],
+	"objects": [
+		{
+			"x": 78,
+			"y": -6,
+			"scale": [
+				5.5,
+				5
+			],
+			"image": "paper/notebookpage",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "paper",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"type": "gf"
+		},
+		{
+			"x": 1465,
+			"y": 540,
+			"scale": [
+				225,
+				225
+			],
+			"filters": 3,
+			"color": "000000",
+			"angle": 0,
+			"name": "black1",
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "square"
+		},
+		{
+			"type": "dad"
+		},
+		{
+			"x": 755,
+			"y": 710,
+			"scale": [
+				485,
+				300
+			],
+			"filters": 3,
+			"color": "000000",
+			"angle": 0,
+			"name": "black2",
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "square"
+		},
+		{
+			"type": "boyfriend"
+		},
+		{
+			"x": 1985,
+			"y": 920,
+			"scale": [
+				235,
+				225
+			],
+			"filters": 3,
+			"color": "000000",
+			"angle": 0,
+			"name": "black3",
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "square"
+		}
+	],
+	"camera_girlfriend": [
+		0,
+		0
+	],
+	"defaultZoom": 0.65,
+	"camera_speed": 1.2,
+	"directory": "fact",
+	"opponent": [
+		800,
+		525
+	],
+	"camera_opponent": [
+		0,
+		0
+	],
+	"hide_girlfriend": false
+}

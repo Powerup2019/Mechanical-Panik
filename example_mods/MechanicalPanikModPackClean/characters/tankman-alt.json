@@ -1,0 +1,143 @@
+{
+	"animations": [
+		{
+			"offsets": [0, 0],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Tankman Idle Dance"
+		},
+		{
+			"offsets": [48, 54],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Tankman UP note MISS"
+		},
+		{
+			"offsets": [76, -101],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Tankman DOWN note MISS"
+		},
+		{
+			"offsets": [84, -14],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "Tankman Right Note MISS"
+		},
+		{
+			"offsets": [-21, -31],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "Tankman Note Left MISS"
+		},
+		{
+			"loop": false,
+			"offsets": [-7, 2],
+			"anim": "hey",
+			"fps": 24,
+			"name": "Tank HEY!!",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-1, -8],
+			"anim": "hurt",
+			"fps": 24,
+			"name": "Tank Hit",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-15, -8],
+			"anim": "ugh",
+			"fps": 24,
+			"name": "TANKMAN UGH",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [1, 16],
+			"anim": "prettygood",
+			"fps": 24,
+			"name": "PRETTY GOOD tankman",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [1, 0],
+			"anim": "yousuck",
+			"fps": 24,
+			"name": "You Suck!",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [93, 0],
+			"anim": "dammit",
+			"fps": 24,
+			"name": "Goddamn it",
+			"indices": []
+		},
+		{
+			"offsets": [84, -14],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Tankman Right Note0"
+		},
+		{
+			"offsets": [76, -101],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Tankman DOWN note0"
+		},
+		{
+			"offsets": [48, 54],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Tankman UP note0"
+		},
+		{
+			"offsets": [-21, -31],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Tankman Note Left0"
+		},
+		{
+			"loop": false,
+			"offsets": [125, 0],
+			"anim": "dodge",
+			"fps": 24,
+			"name": "Dodge Tanky",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/opponent/Tankman_Jeff",
+	"position": [0, 240],
+	"healthicon": "tankman",
+	"flip_x": true,
+	"healthbar_colors": [225, 225, 225],
+	"camera_position": [0, 0],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

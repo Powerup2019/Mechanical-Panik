@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Powerup-alt.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- MC07 is awesome and cool. -->
+	<SubTexture name="Down-alt0000" x="0" y="0" width="761" height="677" rotated="false"/>
+	<SubTexture name="Down-alt0001" x="765" y="0" width="761" height="677" rotated="false"/>
+	<SubTexture name="Down-alt0002" x="1530" y="0" width="761" height="677" rotated="false"/>
+	<SubTexture name="Down-alt0003" x="2295" y="0" width="761" height="677" rotated="false"/>
+	<SubTexture name="Down-alt0004" x="3060" y="0" width="761" height="677" rotated="false"/>
+	<SubTexture name="Down-alt0005" x="3825" y="0" width="761" height="677" rotated="false"/>
+	<SubTexture name="Down-alt0006" x="4590" y="0" width="761" height="677" rotated="false"/>
+	<SubTexture name="Down-alt0007" x="5355" y="0" width="761" height="677" rotated="false"/>
+	<SubTexture name="Down-alt0008" x="6120" y="0" width="761" height="677" rotated="false"/>
+	<SubTexture name="Down-alt0009" x="6885" y="0" width="761" height="677" rotated="false"/>
+	<SubTexture name="Down-alt0010" x="0" y="681" width="761" height="677" rotated="false"/>
+	<SubTexture name="Down-alt0011" x="765" y="681" width="761" height="677" rotated="false"/>
+	<SubTexture name="Left-alt0000" x="1530" y="681" width="734" height="780" rotated="false"/>
+	<SubTexture name="Left-alt0001" x="2268" y="681" width="734" height="780" rotated="false"/>
+	<SubTexture name="Left-alt0002" x="3006" y="681" width="734" height="780" rotated="false"/>
+	<SubTexture name="Left-alt0003" x="3744" y="681" width="734" height="780" rotated="false"/>
+	<SubTexture name="Left-alt0004" x="4482" y="681" width="734" height="780" rotated="false"/>
+	<SubTexture name="Left-alt0005" x="5220" y="681" width="734" height="780" rotated="false"/>
+	<SubTexture name="Left-alt0006" x="5958" y="681" width="734" height="780" rotated="false"/>
+	<SubTexture name="Left-alt0007" x="6696" y="681" width="734" height="780" rotated="false"/>
+	<SubTexture name="Left-alt0008" x="7434" y="681" width="734" height="780" rotated="false"/>
+	<SubTexture name="Left-alt0009" x="0" y="1465" width="734" height="780" rotated="false"/>
+	<SubTexture name="Left-alt0010" x="738" y="1465" width="734" height="780" rotated="false"/>
+	<SubTexture name="Left-alt0011" x="1476" y="1465" width="734" height="780" rotated="false"/>
+	<SubTexture name="Right-alt0000" x="2214" y="1465" width="817" height="791" rotated="false"/>
+	<SubTexture name="Right-alt0001" x="3035" y="1465" width="817" height="791" rotated="false"/>
+	<SubTexture name="Right-alt0002" x="3856" y="1465" width="817" height="791" rotated="false"/>
+	<SubTexture name="Right-alt0003" x="4677" y="1465" width="817" height="791" rotated="false"/>
+	<SubTexture name="Right-alt0004" x="5498" y="1465" width="817" height="791" rotated="false"/>
+	<SubTexture name="Right-alt0005" x="6319" y="1465" width="817" height="791" rotated="false"/>
+	<SubTexture name="Right-alt0006" x="7140" y="1465" width="817" height="791" rotated="false"/>
+	<SubTexture name="Right-alt0007" x="0" y="2260" width="817" height="791" rotated="false"/>
+	<SubTexture name="Right-alt0008" x="821" y="2260" width="817" height="791" rotated="false"/>
+	<SubTexture name="Right-alt0009" x="1642" y="2260" width="817" height="791" rotated="false"/>
+	<SubTexture name="Right-alt0010" x="2463" y="2260" width="817" height="791" rotated="false"/>
+	<SubTexture name="Right-alt0011" x="3284" y="2260" width="817" height="791" rotated="false"/>
+	<SubTexture name="Up-alt0000" x="4105" y="2260" width="837" height="903" rotated="false"/>
+	<SubTexture name="Up-alt0001" x="4946" y="2260" width="837" height="903" rotated="false"/>
+	<SubTexture name="Up-alt0002" x="5787" y="2260" width="837" height="903" rotated="false"/>
+	<SubTexture name="Up-alt0003" x="6628" y="2260" width="837" height="903" rotated="false"/>
+	<SubTexture name="Up-alt0004" x="0" y="3167" width="837" height="903" rotated="false"/>
+	<SubTexture name="Up-alt0005" x="841" y="3167" width="837" height="903" rotated="false"/>
+	<SubTexture name="Up-alt0006" x="1682" y="3167" width="837" height="903" rotated="false"/>
+	<SubTexture name="Up-alt0007" x="2523" y="3167" width="837" height="903" rotated="false"/>
+	<SubTexture name="Up-alt0008" x="3364" y="3167" width="837" height="903" rotated="false"/>
+	<SubTexture name="Up-alt0009" x="4205" y="3167" width="837" height="903" rotated="false"/>
+	<SubTexture name="Up-alt0010" x="5046" y="3167" width="837" height="903" rotated="false"/>
+	<SubTexture name="Up-alt0011" x="5887" y="3167" width="837" height="903" rotated="false"/>
+</TextureAtlas>

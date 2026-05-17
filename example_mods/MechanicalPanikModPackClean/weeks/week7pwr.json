@@ -1,0 +1,32 @@
+{
+	"storyName": "He's Tanking it",
+	"difficulties": "PWR",
+	"hideFreeplay": false,
+	"weekBackground": "tank",
+	"weekBefore": "MainWeek",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"songs": [
+		[
+			"Ugh-pwr",
+			"tankman",
+			[
+				246,
+				182,
+				4
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"tankman",
+		""
+	],
+	"hideStoryMode": false,
+	"weekName": "PWRWeek7",
+	"hiddenUntilUnlocked": true
+}

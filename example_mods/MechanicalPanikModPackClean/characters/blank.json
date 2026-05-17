@@ -1,0 +1,127 @@
+{
+	"animations": [
+		{
+			"offsets": [170, -10],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+			"name": "Left-Alt"
+		},
+		{
+			"offsets": [275, -90],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+			"name": "Down-Alt"
+		},
+		{
+			"offsets": [330, 0],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+			"name": "Right-Alt"
+		},
+		{
+			"offsets": [170, 90],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+			"name": "Up-Alt"
+		},
+		{
+			"loop": false,
+			"offsets": [200, 20],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [330, 0],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [270, -90],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [210, 90],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [175, -10],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Left0",
+			"indices": []
+		},
+		{
+			"offsets": [200, 20],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle-loop",
+			"indices": [10, 11, 12, 13],
+			"name": "Idle"
+		},
+		{
+			"offsets": [330, 0],
+			"loop": true,
+			"fps": 24,
+			"anim": "singLEFT-loop",
+			"indices": [8, 9, 10, 11],
+			"name": "Right0"
+		},
+		{
+			"offsets": [270, -90],
+			"loop": true,
+			"fps": 24,
+			"anim": "singDOWN-loop",
+			"indices": [8, 9, 10, 11],
+			"name": "Down0"
+		},
+		{
+			"offsets": [210, 90],
+			"loop": true,
+			"fps": 24,
+			"anim": "singUP-loop",
+			"indices": [8, 9, 10, 11],
+			"name": "Up0"
+		},
+		{
+			"offsets": [175, -10],
+			"loop": true,
+			"fps": 24,
+			"anim": "singRIGHT-loop",
+			"indices": [8, 9, 10, 11],
+			"name": "Left0"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/girlfriend/blank",
+	"position": [0, 110],
+	"healthicon": "face",
+	"flip_x": false,
+	"healthbar_colors": [161, 161, 161],
+	"camera_position": [540, -10],
+	"sing_duration": 6.1,
+	"scale": 0.8,
+	"_editor_isPlayer": true
+}

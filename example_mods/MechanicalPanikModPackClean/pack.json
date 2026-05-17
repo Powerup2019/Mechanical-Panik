@@ -1,0 +1,8 @@
+{
+	"name": "Mechanical Panik",
+	"description": "Mod folder For Mechanical Panik",
+	"restart":false,
+	"runsGlobally": true,
+	"color": [255, 50, 43],
+	"discordRPC": "1477788809298055269"
+}

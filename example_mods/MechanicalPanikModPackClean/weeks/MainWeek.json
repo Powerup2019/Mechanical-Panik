@@ -1,0 +1,44 @@
+{
+	"storyName": "Powerin' up",
+	"difficulties": "normal",
+	"hideFreeplay": false,
+	"weekBackground": "power",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"nuts-n-boltz",
+			"power",
+			[
+				255,
+				84,
+				0
+			]
+		],
+		[
+			"autotuned",
+			"power",
+			[
+				255,
+				84,
+				0
+			]
+		],
+		[
+			"megablast",
+			"power",
+			[
+				255,
+				84,
+				0
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"weekName": "Power"
+}
