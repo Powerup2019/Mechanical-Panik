@@ -1,5 +1,6 @@
 import objects.Note;
 import backend.Paths;
+import backend.ClientPrefs;
 
 var ogSkin:String = PlayState.SONG.arrowSkin;
 
@@ -11,4 +12,19 @@ function onCreate() {
 
 function onDestroy() {
     PlayState.SONG.arrowSkin = ogSkin;
+}
+
+function onUpdate(elapsed:Float) {
+    for (strum in playerStrums) {
+        strum.resetAnim = 99;
+        if (strum.animation.curAnim.finished) strum.playAnim('static');
+    }
+    for (strum in opponentStrums) {
+        strum.resetAnim = 99;
+        if (strum.animation.curAnim.finished) strum.playAnim('static');
+    }
+}
+
+function onKeyReleasePre(key:Int) {
+    return Function_Stop;
 }

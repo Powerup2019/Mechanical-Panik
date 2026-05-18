@@ -73,5 +73,5 @@ function onTimerCompleted(tag, loops, loopsLeft)
     end
 end
 addLuaScript('scripts/hud/BatteryBar')
-addLuaScript('scripts/hud/BotNoteSkin')
+addHScript('scripts/hud/BotNoteSkin')
 addLuaScript('scripts/hud/BSideHud')
