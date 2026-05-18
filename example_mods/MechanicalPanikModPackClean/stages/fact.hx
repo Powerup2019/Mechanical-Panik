@@ -17,11 +17,8 @@ function onCreate() {
 
     var darkMetal:BGSprite = new BGSprite('factory/darkmetal thingy', 193, 488, 0.95);
     addBehindGF(darkMetal);
-    
-    var darkMetal:BGSprite = new BGSprite('factory/darkmetal thingy', 193, 488, 0.95);
-    addBehindGF(darkMetal);
 
-    var metalThing:BGSprite = new BGSprite('factory/metal thingy', 62, 225);
+    var metalThing:BGSprite = new BGSprite('factory/metal thingy', 32, 225);
     addBehindGF(metalThing);
 
     var hallWalls:BGSprite = new BGSprite('factory/hallwalls', 23, 393);
@@ -49,6 +46,9 @@ function onCreate() {
         remove(mainLight);
         remove(miniLight);
         hasLights = false;
+
+        thingies.color = darkMetal.color = metalThing.color = hallWalls.color = hallFloor.color = floor.color = foreWires.color = foreThing.color = CoolUtil.colorFromString('696969');
+        camHUD.bgColor = 0x7F000000;
     }
 }
 
