@@ -12,13 +12,13 @@ function returnMetaData()
 end
 
 function addLuaFromHScript(file) --purely because im too lazy to figure it out in hscript
-    if file ~= null then
+    if file ~= null and file.length > 0 then
         addLuaScript(file, true)
     end
 end
 
 function addHScriptFromHScript(file)
-    if file ~= null then
+    if file ~= null and file.length > 0 then
         addHScript(file, true)
     end
 end

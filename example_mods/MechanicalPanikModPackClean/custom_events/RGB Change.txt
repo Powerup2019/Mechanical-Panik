@@ -1,0 +1,3 @@
+Value 1: Player, Opponent, or Both.
+Value 2: Which colorset. Available options are:
+Default, Default Pixel, Base, BaseCorrupt, Omega, OmegaModern, OmegaCorrupt, OmegaMinus, Theta

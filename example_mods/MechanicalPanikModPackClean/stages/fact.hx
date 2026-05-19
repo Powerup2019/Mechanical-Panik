@@ -47,20 +47,19 @@ function onCreate() {
         remove(miniLight);
         hasLights = false;
 
-        thingies.color = darkMetal.color = metalThing.color = hallWalls.color = hallFloor.color = floor.color = foreWires.color = foreThing.color = CoolUtil.colorFromString('696969');
+        thingies.color = darkMetal.color = metalThing.color = hallWalls.color = hallFloor.color = floor.color = foreWires.color = foreThing.color = CoolUtil.colorFromString('ADADAD');
         camHUD.bgColor = 0x7F000000;
     }
 }
 
 function onCreatePost() {
-    debugPrint(songName.toLowerCase());
     gfGroup.scrollFactor.set(1, 1);
     if (ClientPrefs.data.shaders) {
         switch(songName.toLowerCase()) {
             case 'megablast':
-                callOnHScript('setDropShadowShader', [boyfriend, 110, 10, 1, 'BC8660', -10, -25, -75, -25]);
-                callOnHScript('setDropShadowShader', [gf, 90, 10, 1,'BC8660', -10, -25, -75, -25]);
-                callOnHScript('setDropShadowShader', [dad, 70, 10, 1, 'BC8660', -10, -25, -75, -25]);
+                callOnHScript('setDropShadowShader', [boyfriend, 110, 10, 1, 'BC8660', -10, -25, -50, -25]);
+                callOnHScript('setDropShadowShader', [gf, 90, 10, 1,'BC8660', -10, -25, -35, -25]);
+                callOnHScript('setDropShadowShader', [dad, 70, 10, 1, 'BC8660', -10, -25, -50, -25]);
             default:
                 callOnHScript('setDropShadowShader', [boyfriend, 110, 10, 1, 'FFB780', -10, 0, -50, -35]);
                 callOnHScript('setDropShadowShader', [gf, 90, 10, 1,'FFB780', -10, 0, -35, -25]);
