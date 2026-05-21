@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Tv.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- MC07 is awesome and cool. -->
+	<SubTexture name="Tv0000" x="0" y="0" width="755" height="468" rotated="false"/>
+	<SubTexture name="turn on0000" x="755" y="0" width="729" height="229" rotated="false"/>
+	<SubTexture name="turn on0001" x="0" y="468" width="729" height="229" rotated="false"/>
+	<SubTexture name="turn on0002" x="729" y="468" width="729" height="229" rotated="false"/>
+	<SubTexture name="turn on0003" x="0" y="697" width="729" height="229" rotated="false"/>
+	<SubTexture name="turn on0004" x="729" y="697" width="729" height="229" rotated="false"/>
+	<SubTexture name="turn on0005" x="0" y="926" width="729" height="229" rotated="false"/>
+</TextureAtlas>
