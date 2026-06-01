@@ -5,6 +5,8 @@ import flixel.effects.FlxFlicker;
 import lime.app.Application;
 import states.editors.MasterEditorMenu;
 import options.OptionsState;
+import flixel.util.FlxTimer;
+import openfl.Assets;
 
 enum MainMenuColumn {
 	LEFT;
@@ -36,6 +38,9 @@ class MainMenuState extends MusicBeatState
 
 	var magenta:FlxSprite;
 	var camFollow:FlxObject;
+        var tipText:FlxText;
+        var tips:Array<String> = [];
+        var currentTip:Int = -1;
 
 	static var showOutdatedWarning:Bool = true;
 	override function create()
@@ -123,6 +128,15 @@ class MainMenuState extends MusicBeatState
 		}
 		#end
 
+                tips = Assets.getText("assets/data/tips.txt").split("\n");
+
+                tipText = new FlxText(0, FlxG.height - 64, FlxG.width, "");
+                tipText.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+                tipText.scrollFactor.set();
+                tipText.alpha = 0;
+                add(tipText);
+
+                showRandomTip();
 		FlxG.camera.follow(camFollow, null, 0.15);
 	}
 
@@ -141,6 +155,43 @@ class MainMenuState extends MusicBeatState
 		return menuItem;
 	}
 
+        function showRandomTip()
+{
+	if (tips.length <= 0)
+		return;
+
+	var newTip:Int;
+
+	do
+	{
+		newTip = FlxG.random.int(0, tips.length - 1);
+	}
+	while(newTip == currentTip && tips.length > 1);
+
+	currentTip = newTip;
+
+	tipText.text = "Tip: " + tips[currentTip];
+	tipText.screenCenter(X);
+
+	FlxTween.cancelTweensOf(tipText);
+
+	tipText.alpha = 0;
+
+	FlxTween.tween(tipText, {alpha: 1}, 1, {
+		onComplete: function(_)
+		{
+			new FlxTimer().start(8, function(_)
+			{
+				FlxTween.tween(tipText, {alpha: 0}, 1, {
+					onComplete: function(_)
+					{
+						showRandomTip();
+					}
+				});
+			});
+		}
+	});
+}
 	var selectedSomethin:Bool = false;
 
 	var timeNotMoving:Float = 0;
